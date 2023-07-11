@@ -1,0 +1,7 @@
+package com.criacao.api.cep.model;
+
+public enum Status {
+    NEED_SETUP, //PRECISA BAIXAR O CSV DOS CORREIROS
+    SETUP_RUNNING, //ESTA BAIXANDO E SALVANDO NO BANCO
+    READY; //SERVIÇO ESTA APTO PARA SER CONSUMIDO
+}
